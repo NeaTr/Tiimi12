@@ -1,0 +1,36 @@
+@charset "UTF-8";
+html {
+box-sizing: border-box;
+}
+body {
+    background-color:lightgrey;
+    margin: 0 20%;
+    font-family: sans-serif;
+}
+h1 {
+  text-align: center;
+  text-shadow: .05em .05em .1em rgb(255, 255, 255);
+  color: #6699ff;
+  font-family: 'Coda Caption', sans-serif;
+  font-weight: 1500;
+  text-transform: uppercase;
+  border-bottom: 3px solid #ffffff;
+  margin-top: 30px;
+}
+
+h4 {
+  color: #6699ff;
+  font-size: 1em;
+  text-align: right;
+  text-transform: uppercase;
+  text-shadow: .05em .05em .1em lightslategray;
+}
+p {
+    text-align: right;
+    font-family: 'Assistant', sans-serif;
+}
+strong {
+  color:#6699ff;
+  font-size: 1em;
+}
+/* CSS Document */
