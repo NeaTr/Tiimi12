@@ -1,3 +1,3 @@
 # Tiimi12
 
-tëst
+lol ootte kaikki iha kaggoi B)
