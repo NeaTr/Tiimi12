@@ -3,25 +3,24 @@ html {
 box-sizing: border-box;
 }
 body {
-    background-color:rgba(185, 212, 228, 0.952);
+    background-color:rgba(159, 173, 238, 0.685);
     margin: 0 20%;
     font-family: sans-serif;
 }
 h1 {
   text-align: center;
   text-shadow: .05em .05em .1em rgb(255, 255, 255);
-  color: #1b366b;
+  color: #2e4c88;
   font-family: 'Coda Caption', sans-serif;
   font-weight: 1500;
   text-transform: uppercase;
   margin-top: 30px;
 }
 h4 {
-  color: #6699ff;
-  font-size: 1em;
+  color: #000000;
+  font-size: 1.15em;
   text-align: right;
-  text-transform: uppercase;
-  text-shadow: .05em .05em .1em lightslategray;
+  text-transform: normal;
   margin-right: 15px;
 }
 p {
@@ -30,7 +29,7 @@ p {
     margin-right: 15px;
 }
 strong {
-  color:#6699ff;
+  color:#000000;
   font-size: 1em;
 }
 .hello {
@@ -39,7 +38,9 @@ strong {
   text-align: left;
   font-weight: normal;
   font-family: 'Assistant', sans-serif;
-  background-color: rgba(255, 255, 255, 0.5);
+}
+img {
+  margin-top: 30px;
 }
 .images {
   float: left;
@@ -62,10 +63,10 @@ header nav ul {
 }
 header ul li {
   float: left;
-  color: white;
+  color: rgb(255, 255, 255);
   width: 200px;
   height: 40px;
-  background-color: #ffffffe1;
+  background-color: #2e4c8873;
   opacity: .9;
   line-height: 40px;
   text-align: center;
@@ -73,12 +74,12 @@ header ul li {
 }
 header ul li a {
   text-decoration: none;
-  color: rgb(0, 0, 0);
+  color: black;
   display: block;
   font-family: 'Assistant', sans-serif;
 }
 header ul li a:hover {
-  background-color: rgb(141, 141, 141);
+  background-color: rgba(0, 0, 0, 0.452);
   color: black;
 }
 header ul li ul li {
@@ -87,4 +88,10 @@ header ul li ul li {
 header ul li:hover ul li {
   display: block;
 }
+.centered {
+  position: relative;
+  margin: 0 auto;
+  max-width: 1200px;
+  background-color:rgb(154, 165, 212);
+}​
 /* CSS Document */
