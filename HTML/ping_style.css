@@ -3,7 +3,7 @@ html {
 box-sizing: border-box;
 }
 body {
-    background-color:lightgrey;
+    background-color:rgba(226, 225, 225, 0.952);
     margin: 0 20%;
     font-family: sans-serif;
 }
@@ -14,10 +14,9 @@ h1 {
   font-family: 'Coda Caption', sans-serif;
   font-weight: 1500;
   text-transform: uppercase;
-  border-bottom: 3px solid #ffffff;
+  border-bottom: 3px solid #000000;
   margin-top: 30px;
 }
-
 h4 {
   color: #6699ff;
   font-size: 1em;
@@ -37,5 +36,21 @@ h3 {
   color: #000000;
   font-size: 1em;
   text-align: left;
+  font-weight: normal;
+  font-family: 'Assistant', sans-serif;
+}
+.images {
+  float: left;
+  padding: 30px;
+}
+.images2 {
+  float: top;
+  padding: 30px;
+}
+header {
+  text-align: center;
+}
+header nav {
+  display: inline-block;
 }
 /* CSS Document */
