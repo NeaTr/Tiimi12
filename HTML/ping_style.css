@@ -94,4 +94,9 @@ header ul li:hover ul li {
   max-width: 1200px;
   background-color:rgb(154, 165, 212);
 }​
+.palaute {
+  text-align: left;
+  font-family: 'Assistant', sans-serif;
+  margin-right: 15px;
+}
 /* CSS Document */

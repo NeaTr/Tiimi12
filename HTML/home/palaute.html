@@ -12,14 +12,15 @@
 <link href="https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@500&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="../ping_style.css">
+<link rel="stylesheet" href="../palaute.css">
 </head>
 
 <body>
+    
 <div class="centered">
-<h1><img src="../images/pingu.png" alt="penguing"><br>Ping's Pet Shop <br> Yhteystiedot</h1>
+<h1><img src="../images/pingu.png" alt="penguing"><br>Ping's Pet Shop<br>Palaute</h1>
 <ul>
-  <li><a href="en/contacts_en.html">english</a></li>
+  <li><a href="en/mainpage_en.html">english</a></li>
 </ul>
 
 <header>
@@ -32,7 +33,7 @@
           <li><a> Yolo  </a></li>
         </ul>
       </li>
-      <li> <a href="">Eläimet & Tarvikkeet </a>
+      <li> <a href="items.html">Eläimet & Tarvikkeet </a>
         <ul>
           <li><a> Jyrsijät  </a></li>
           <li><a> Liskot  </a></li>
@@ -40,10 +41,6 @@
         </ul>
       </li>
       <li> <a href="services.html"> Palvelut </a>
-        <ul>
-          <li><a> lol  </a></li>
-          <li><a> lol  </a></li>
-        </ul>
       </li>
       <li> <a href="contacts.html"> Yhteystiedot </a> </li>
     </ul>
@@ -54,28 +51,28 @@
   <img src="../images/kitty.png">
 </div>
 
-<article class="contacts">
-  <br> <u>Myyntipäällikkö</u> <br> Nea
-  <br> 0401234567 <br>
-  <br> <u>Trimmauspalvelut</u> <br> Joonas
-  <br> 0401234569 <br>
-  <br> <u>Myyjä</u> <br> Henri
-  <br> 0401234570 <br>
-  <br> <u>Eläintenhoitaja</u> <br> Jere
-  <br> 0401234571 <br>
-  </article>
+<div class="container">  
+    <form id="contact" action="" method="post">
+      <h3>Ole meihin yhteyksissä</h3>
+      <h4></h4>
+      <fieldset>
+        <input placeholder="Nimi" type="text" tabindex="1" required autofocus>
+      </fieldset>
+      <fieldset>
+        <input placeholder="Sähköpostiosoite" type="email" tabindex="2" required>
+      </fieldset>
+      <fieldset>
+        <input placeholder="Puhelinnumero" type="tel" tabindex="3" required>
+      </fieldset>
+      <fieldset>
+        <textarea placeholder="Kirjoita viestisi..." tabindex="5" required></textarea>
+      </fieldset>
+      <fieldset>
+        <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Lähetä</button>
+      </fieldset>
+    </form>
+  </div>
+  <br>
+  Kiits
 
- <div class="palaute">
-   <br><a href="palaute.html">Anna palautetta</a>
- </div>
-
-<h4><u>Aukioloajat:</u></h4>
-<p>Ma-Pe: 10:00-19:00<br>La: 10:00-19:00<br>Su 11:00-18:00</p>
-
-<h4><u>Yhteystiedot:</u></h4>
-<p><strong>Puhelinnumero:</strong> +358123456789
-<br><strong>S-posti:</strong> pingspetshop@contactus.fi</p>
-</div>
-
-</body>
 </html>
