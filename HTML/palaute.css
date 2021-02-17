@@ -16,6 +16,15 @@ h1 {
   text-transform: uppercase;
   margin-top: 30px;
 }
+h2 {
+  text-align: center;
+  text-shadow: .05em .05em .1em rgb(255, 255, 255);
+  color: #2e4c88;
+  font-family: 'Coda Caption', sans-serif;
+  font-weight: 1500;
+  text-transform: uppercase;
+  margin-top: 0px;
+}
 h4 {
   color: #000000;
   font-size: 1.15em;
